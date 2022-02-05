@@ -11,4 +11,8 @@ const imgens = [
     'https://www.google.com/search?q=api+naruto&sxsrf=APq-WBtnD8UQNJxAzmLOOn8YBMJV9dYLTA:1644017753839&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj58uKxm-f1AhVXIrkGHVFmAvUQ_AUoAXoECAEQAw&biw=1022&bih=665&dpr=1#imgrc=_WP51fvC_KYC0M',
 ];
 
-export default imgens;
+
+export const getImgens = () => {
+    return imgens
+}
+
