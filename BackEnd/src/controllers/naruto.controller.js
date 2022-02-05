@@ -1,6 +1,9 @@
+import narutoService from "../services/naruto.service.js"
+
+
 const getReandomImage = (req, res) =>{
         res.send({
-            message:"https:\/\/images.dog.ceo\/breeds\/puggle\/IMG_162320.jpg",
+            message: narutoService.getReandomImage(),
             status:'success'
         })
 }
